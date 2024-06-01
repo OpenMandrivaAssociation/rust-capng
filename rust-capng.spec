@@ -19,6 +19,7 @@ Source:         %{crates_source}
 ExclusiveArch:  %{rust_arches}
 
 BuildRequires:  cargo-rpm-macros >= 24
+BuildRequires:	pkgconfig(libcap-ng)
 BuildRequires:  (crate(bitflags/default) >= 1.0.0 with crate(bitflags/default) < 2.0.0~)
 BuildRequires:  (crate(libc/default) >= 0.2.69 with crate(libc/default) < 0.3.0~)
 
